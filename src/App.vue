@@ -1,0 +1,19 @@
+<template>
+  <div>
+    <!-- 此处可以添加你的应用程序内容 -->
+  </div>
+</template>
+
+<script>
+export default {
+  mounted() {
+    this.openPdf()
+  },
+  methods: {
+    openPdf() {
+      const file = '林剑豪 - 用户体验设计师【6年】- 作品集.pdf' // 将'your-file-name'替换为实际的文件名
+      window.open(`/${file}`, '_self')
+    }
+  }
+}
+</script>
