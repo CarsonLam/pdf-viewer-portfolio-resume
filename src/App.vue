@@ -11,7 +11,7 @@ export default {
   },
   methods: {
     openPdf() {
-      const file = '林剑豪 - 用户体验设计师【6年】- 作品集.pdf' // 将'your-file-name'替换为实际的文件名
+      const file = '林剑豪 - 用户体验设计师 - 简历.pdf' // 将'your-file-name'替换为实际的文件名
       window.open(`/${file}`, '_self')
     }
   }
